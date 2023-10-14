@@ -11,7 +11,7 @@ int main()
     scanf("%f", &longeur);
     P = (largeur+longeur)*2;
     S = largeur * longeur ;
-    printf("le perimetre du rectangle est : %.2f",P);
+    printf("le perimetre du rectangle est : %.2f \n",P);
     printf("La surface du rectangle est : %.2f",S);
     return 0;
 }
