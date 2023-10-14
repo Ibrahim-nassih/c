@@ -9,5 +9,7 @@ int main()
     scanf("%f %f", &X,&Y);
     P = pow(X,Y);
     printf("La puissance est : %.2f",P);
+    getch();
     return 0;
+   
 }
